@@ -1,4 +1,4 @@
-= Intro to DevOps and Kubernetes: Day 1
+# Intro to DevOps and Kubernetes: Day 1
 
 You're welcome to run a Kubernetes cluster on your own machines but because this takes a lot of resources we're going to use a web playground for this.
 
@@ -10,7 +10,7 @@ You're welcome to run a Kubernetes cluster on your own machines but because this
 
 4) Run `kubectl apply -f  blue.deployment.yaml` 
 
-5) Run `ubectl apply -f blue.service.yaml`
+5) Run `kubectl apply -f blue.service.yaml`
 
 You've now deployed the Color Coded application!
 

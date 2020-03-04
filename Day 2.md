@@ -1,8 +1,8 @@
-=Intro to DevOps and Kubernetes: Day 2
-== Running a Kubernetes Cluster
+# Intro to DevOps and Kubernetes: Day 2
+## Running a Kubernetes Cluster
 
 
-===1) Setup a cluster with two nodes
+### 1) Setup a cluster with two nodes
 
 Goto https://www.katacoda.com/courses/kubernetes/getting-started-with-kubeadm to get an environment and follow the instructions. This will all you to:
 
@@ -12,14 +12,14 @@ Goto https://www.katacoda.com/courses/kubernetes/getting-started-with-kubeadm to
 	- Start the Kubernetes Dashboard
 	- View the dashboard
 
-===2) Expand on Kubernetes concepts
+### 2) Expand on Kubernetes concepts
 
 While in the environment above, lets introduce namespaces. 
 
 	- `kubectl get namespaces`
 	- `kubectl create namespace test`
 
-===3) Deploy our app again, but this time in two namespaces
+### 3) Deploy our app again, but this time in two namespaces
 
 	- Clone the repo `git clone https://github.com/todaywasawesome/color-coded.git`	
 	- Run `cd color-coded/deploy/kubernetes/` This will put us into a directory with some different config files we can use. 
